@@ -100,6 +100,7 @@ p {
 }
 
 
+
 .createplayl {
     margin: 5px 5px 15px 5px;
     padding: 10px 12px;
@@ -145,7 +146,19 @@ p {
 .middlesection {
     height: 65px;
     overflow: hidden;
+    overflow-y:scroll;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(179, 179, 179, 0.4);
+  }
+
 
 .bottomsection {
    display: flex;
@@ -177,6 +190,7 @@ p {
     height: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 .bottomsection button p {
@@ -189,4 +203,12 @@ p {
 .bottomsection button img {
     width: 14px;
     margin-left: -2px;
+}
+
+.middlesection .createplayl:first-child {
+    margin-top: 10px;
+}
+
+.middlesection .createplayl:nth-child(2) {
+    margin-bottom: 25px;
 }
