@@ -1,0 +1,105 @@
+.mainbody {
+    margin-left: 210px;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.maintopsec {
+    display: flex;
+    justify-content: space-between;
+    background-color: #090909;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.forwardbackbutton{
+    padding: 5px 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.forwardbackbutton button{
+    color: #929292;
+    background-color: #050505;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 14px;
+    padding: 0px 7px;
+    margin-right: 5px;
+}
+
+.topright {
+    display: flex;
+    margin-right: 20px;
+}
+
+.topright p {
+    font-size: 11px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.signup {
+    color: #929292;
+    background-color: rgb(9, 9, 9, 0);
+    border: none;
+}
+
+.login {
+    color: black;
+    font-size: 11px;
+    font-weight: 500;
+    width: 70px;
+    height: 30px;
+    border-radius: 18px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+
+.mainfirstsec {
+    display: flex;
+    flex-direction: column;
+    background: #121212;
+    padding: 35px 12px;
+}
+
+.titlesec {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.popart {
+    font-size: 15px;
+    font-weight: 900px;
+}
+
+.showall {
+    font-size: 9px;
+    font-weight: 900px;
+    color: #b3b3b3;
+    padding-right: 5px;
+}
+
+.artistsec {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+}

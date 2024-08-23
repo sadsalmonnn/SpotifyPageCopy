@@ -4,7 +4,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 11px;
     font-weight: 500;
-    margin: 5px 5px 5px 5px
+    margin: 0px 0px 0px 0px;
+    padding-right: 5px;
 }
 
 button {
@@ -15,141 +16,7 @@ p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.sidebar {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    color: #b3b3b3;
-}
 
-.gennavsec {
-    display: flex;
-    flex-direction: column;
-    background-color: #121212;
-    padding-right: 120px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.spotifylogo img {
-    height: 25px;
-    padding-left: 3px;
-}
-
-.spotifylogo {
-    margin-left: -4px;
-}
-
-.home, .search {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    align-items: center;
-    margin-bottom: 8px;
-}
-
-.home img {
-    width: 25px;
-    margin-right: 12px;
-}
-
-
-.search img {
-    width: 25px;
-    margin-right: 12px;
-}
-
-.libsec, .gennavsec {
-    border-radius: 6px;
-}
-
-.libsec {
-    /*overflow-y: scroll;
-    overflow-x: hidden;*/
-    padding-top: 7px;
-    margin-top: 5px;
-    background-color: #121212;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.topsection {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 15px;
-    margin-bottom: 15px;
-}
-
-.topsection p {
-    display: flex;
-    align-items: center;
-    flex: 1;
-}
-
-.libraryimg {
-    width: 25px;
-    margin-right: 5px;
-}
-
-.addimg {
-    width: 13px;
-    height: 15px;
-}
-
-
-
-.createplayl {
-    margin: 5px 5px 15px 5px;
-    padding: 10px 12px;
-    background-color: #1f1f1f;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    border-radius: 6px;
-}
-
-.firstlinep {
-    font-weight: 700;
-    margin-bottom: 8px;
-}
-
-.secondlinep {
-    margin-bottom: 14px;
-    font-size: 9px;
-}
-
-.middlesection button {
-    font-size: 9px;
-    color: black;
-    font-weight: 700;
-    background-color: white;
-    height: 22px;
-    border: none;
-    border-radius: 41px;
-}
-
-.playlistbut {
-    width: 80px;
-}
-
-.browsepodbutton {
-    width: 92px;
-}
-
-.createplayl p {
-    width: 150px;
-}
-
-.middlesection {
-    height: 65px;
-    overflow: hidden;
-    overflow-y:scroll;
-}
-
-/* width */
 ::-webkit-scrollbar {
     width: 8px;
   }
@@ -158,57 +25,3 @@ p {
   ::-webkit-scrollbar-thumb {
     background: rgba(179, 179, 179, 0.4);
   }
-
-
-.bottomsection {
-   display: flex;
-   flex-direction: column;
-   margin-top: 26px;
-   padding-left: 15px;
-}
-
-.rowbottom {display: flex;
-    flex-direction: row;
-    font-size: 7px;
-
-}
-
-.rowbottom p {
-    margin-right: 12px;
-    margin-bottom: 10px;
-}
-
-.bottomsection button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #121212;
-    width: 64px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #7c7c7c;
-    height: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 15px;
-}
-
-.bottomsection button p {
-    margin-left: 3px;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-}
-
-.bottomsection button img {
-    width: 14px;
-    margin-left: -2px;
-}
-
-.middlesection .createplayl:first-child {
-    margin-top: 10px;
-}
-
-.middlesection .createplayl:nth-child(2) {
-    margin-bottom: 25px;
-}
